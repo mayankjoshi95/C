@@ -103,3 +103,4 @@ return 0;
 float amount=12.65435643;
 printf("%0.3f",amount);
 (it means only 3 numbers after decimal)
+(by default printf display only upto 6 decimal point
