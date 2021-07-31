@@ -23,4 +23,5 @@ int main(){
 
 return 0;
 }
-
+/*multiline comment */
+any valid alphabet symbool ,digit is termed as character in c
