@@ -30,3 +30,4 @@ it can be formed from any combination ofvalid alphabets,digits and special symbo
 its an entiy whose value may or maynot change
 cnstant is whose valueemain same (3,10 etc)
 keyword we cannnot change the meaning of the world
+#variable=first character of variable is alphabet or underscore no comma ,space, sspecial character, key word allowed
