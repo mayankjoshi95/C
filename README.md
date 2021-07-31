@@ -49,3 +49,11 @@ CHAR OCCUPIES 1 BYTE
 #HOW TO DECLARE A VARIABLE
 <DATA_TYPE>VARIABLE_NAME;
 int amount=9000;
+format specifier %d-int
+%f-float
+%lf-double
+%c-character
+%s-string
+char alpha='e'
+printf("%d %c",amount,alpha)
+\n for next line
