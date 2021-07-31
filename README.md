@@ -57,3 +57,38 @@ format specifier %d-int
 char alpha='e'
 printf("%d %c",amount,alpha)
 \n for next line
+
+
+#MODIFIERS IN C
+
+
+MODIFIERS ARE USED TO MODIFY THE AMOUNT OF STORAGE SPACE ALLOCATED TO A VARIABLE
+SAY FOR INT GNU COMPILER GIVES 4 BYTES OF MMORY I CAN TELL THE COMPILER TO GIVE 2 BYTES OF MEMORY
+1.SHORT(INT)(4 TO 2 BYTES) 2.LONG(INT(,DOUBLE(8 TO 12 BYTES) 3.SIGNED(INT,CHAR)(VARIABLE ALLOWED TO STORE POSITIVE AND NEAGATIVE VALUES SIGNED INT COUNT ;COUNT=-5) 4.UNSIGNED(INT,CHAR)
+
+BY DEFAULT INT IS SIGNED INT
+CHAR IS SIGNED OR UNSIGNED DEPENDING ON WHAT WE PROVIDE IT
+#minimum and maximum velue range of the data type
+library are <limits.h>
+<float.h>
+
+
+#include<stdio.h>
+#include<limits.h>
+#include<float.h>
+int main(){
+
+double date=1.3;
+
+int age=10;
+
+float amount=12.65;
+char alpha='s';
+
+printf("%lf %f %d %c %d %d %d ", date, amount, age,alpha,sizeof(int),INT_MIN,INT_MAX);
+printf("%lf %f %d %c %d %d %d %le %le%d %d  %d %d %d %d ", date, amount, age,alpha,sizeof(int),INT_MIN,INT_MAX,FLT_MIN,FLT_MAX,CHAR_MIN,CHAR_MAX,SCHAR_MIN,SCHAR_MAX,UCHAR_MAX);
+printf("%le %le",DBL_MIN,DBL_MAX);
+return 0;
+
+}
+
