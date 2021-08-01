@@ -281,3 +281,20 @@ while(1)
 
 #for infinite times as 1 will always be true 
 
+
+
+
+#write the code for sum of numbers
+#include<stdio.h>
+int main(){int count;
+int n=0;
+int a=0;
+int temp;
+scanf("%d",&count);
+while(n<=count)
+{
+    a=a+n;
+     n=n+1;
+}
+printf("%d",a);
+}
