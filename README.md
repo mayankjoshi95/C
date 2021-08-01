@@ -360,3 +360,55 @@ for (int i=2;i<n;i++)
          printf("%d",c);
 
  }
+
+
+#break
+
+
+#include<stdio.h>
+int main(){int a=0;
+int b=1;
+int c;
+int n;
+scanf("%d",&n);
+printf("%d %d",a,b);
+for (int i=2;i<n;i++)
+ {
+         c=a+b;
+         a=b;
+         b=c;
+         printf("%d",c);
+      if (i==5)
+      {
+          break;
+      }
+ }
+printf("end is 5");
+}
+
+#break basically terminat the loop statement
+
+#continue it will skip the following lines of code and force the next iteration of the loop.
+
+#include<stdio.h>
+int main(){int a=0;
+int b=1;
+int c;
+int n;
+scanf("%d",&n);
+printf("%d %d",a,b);
+for (int i=2;i<n;i++)
+ { if (i==5)
+      {
+          continue;
+      }
+         c=a+b;
+         a=b;
+         b=c;
+         printf("%d",c);
+
+ }
+printf("end is 5");
+}
+
+
