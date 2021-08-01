@@ -411,4 +411,26 @@ for (int i=2;i<n;i++)
 printf("end is 5");
 }
 
+#to make*
+        * *
+        * * *
+        * * * *
+        
+#include<stdio.h>
+int main(){
+int n;
+int i;
+scanf("%d",&n);
+for (i=0;i<n;i++)
+  {
+      printf("\n%c",'*');
+      int j=0;
 
+        while(j<i)
+    {
+        printf("%c",'*');
+        j=j+1;
+
+    }
+}
+}        
