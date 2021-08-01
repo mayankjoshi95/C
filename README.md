@@ -155,7 +155,7 @@ int num2;
 
 #SWITCH
 
-switch(expression)
+switch(expression)(exxpression can be anything that evaluates to integer value or a character constant. it can't be float,double,string)
 {case value1:
 /*block of code*/
 break;
