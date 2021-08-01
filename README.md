@@ -240,3 +240,17 @@ int main(){
  line 6;
  return 0;
  }
+
+
+
+#include<stdio.h>
+int main(){printf("the printf value is 0");
+printf("the printf value is 1");
+printf("the printf value is 2");
+goto skip;
+printf("the printf value is 3");
+printf("the printf value is 4");
+skip:
+printf("the printf value is 5");
+
+                  }
