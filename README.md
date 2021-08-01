@@ -112,3 +112,9 @@ count=10;
 total=++count(first increment count then stor it in total )
 totla=count+=(first put the value of the the count in the total then incremnt the count)
 
+
+
+#assignment (=,+=,-=,*=,/=,%=)
+#relational (>=,<=,>,<,==,!=)
+#logical operator(&&,||,!)
+
