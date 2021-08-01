@@ -151,3 +151,25 @@ int num2;
  
  }
 
+
+
+#SWITCH
+
+switch(expression)
+{case value1:
+/*block of code*/
+break;
+case value2:
+/*block of code*/
+break;
+case value3:
+/*block of code*/
+break;
+case value4:
+/*block of code*/
+break;
+default:
+/*block of code*/
+}
+
+
