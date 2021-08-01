@@ -173,3 +173,54 @@ default:
 }
 
 
+#include<stdio.h>
+int main(){
+int choice=3;
+switch(choice)//(exxpression can be anything that evaluates to integer value or a character constant. it can't be float,double,string)
+{case 1:
+/*block of code*/
+printf("the value is value1");
+break;
+case 2:
+/*block of code*/
+printf("the value is value 2");
+break;
+case 3:
+/*block of code*/
+printf("the value is value 3");
+break;
+case 4:
+/*block of code*/
+printf("the value is value 4");
+break;
+default:
+/*block of code*/
+printf("no value");
+}
+}
+#EXAMPLE
+#include<stdio.h>
+int main(){
+int choice=3;
+switch(choice)//(exxpression can be anything that evaluates to integer value or a character constant. it can't be float,double,string)
+{case 1:
+/*block of code*/
+printf("the value is value1");
+break;
+case 2:
+/*block of code*/
+printf("the value is value 2");
+break;
+case 3:
+/*block of code*/
+printf("the value is value 3");
+break;
+case 4:
+/*block of code*/
+printf("the value is value 4");
+break;
+default:
+/*block of code*/
+printf("no value");
+}
+}
