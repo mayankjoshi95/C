@@ -334,3 +334,29 @@ for (int i=0;i<2;i++)
     printf("%d",i);
 }
 }
+
+#include<stdio.h>
+int main(){int a=0;
+for (int i=0;i<=10;i++)
+{    a=a+i;
+}
+ printf("%d",a);
+}
+
+
+fibonaci series
+#include<stdio.h>
+int main(){int a=0;
+int b=1;
+int c;
+int n;
+scanf("%d",&n);
+printf("%d %d",a,b);
+for (int i=2;i<n;i++)
+ {
+         c=a+b;
+         a=b;
+         b=c;
+         printf("%d",c);
+
+ }
