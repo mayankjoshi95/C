@@ -439,6 +439,36 @@ for (i=0;i<n;i++)
 #FUNCTIONS
 
 
-void fname()
+void fname()(void means this function will not return any data)
 {
+
 }
+
+
+#include<stdio.h>
+void addition()
+{
+   int n;
+int i;
+scanf("%d",&n);
+for (i=0;i<=n;i++)
+  {
+
+      int j=0;
+
+        while(j<i)
+    {
+        printf("%c",'*');
+        j=j+1;
+
+    }
+      printf("\n");
+
+ }
+}
+int main(){
+addition();
+}
+
+
+
