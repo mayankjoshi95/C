@@ -118,3 +118,36 @@ totla=count+=(first put the value of the the count in the total then incremnt th
 #relational (>=,<=,>,<,==,!=)
 #logical operator(&&,||,!)
 
+
+#control statement
+#if else statement
+#include<stdio.h>
+int main(){char name ;
+int num 1;
+int num2;
+ scanf("%c",&name);
+ scanf("%d",&num1);
+ scanf("%d",num2);
+ if (name=='a'){
+ printf("%d",num1+num2);
+ }
+ else{ 
+    if (name=='s')
+    {printf("%d",num1-num2);
+    }
+    else{
+          if (name=='m')
+          {printf("%d",num1*num2);
+           }
+           else{if (name=='d')
+               {printf("%d",num1/num2);
+               }
+         } 
+      }
+   }   
+         
+ 
+ 
+ 
+ }
+
