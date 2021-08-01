@@ -253,4 +253,22 @@ printf("the printf value is 4");
 skip:
 printf("the printf value is 5");
 
-                  }
+           }
+
+
+
+#while loop in c programming
+while(condition)
+{
+#block of code;
+}
+
+#include<stdio.h>
+int main(){int count=0;
+while(count<2)
+{
+    count=count+1;
+    printf("%d",count);
+}
+printf("end of while");
+}
