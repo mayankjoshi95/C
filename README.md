@@ -104,3 +104,11 @@ float amount=12.65435643;
 printf("%0.3f",amount);
 (it means only 3 numbers after decimal)
 (by default printf display only upto 6 decimal point thus we have to add %.15lf for higher decimal point)
+
+#scanf
+scanf("%d",&a)
+
+count=10;
+total=++count(first increment count then stor it in total )
+totla=count+=(first put the value of the the count in the total then incremnt the count)
+
