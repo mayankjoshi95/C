@@ -298,3 +298,25 @@ while(n<=count)
 }
 printf("%d",a);
 }
+
+
+#do while
+
+
+do{
+//block of statement
+}while(condition);
+
+#in here bloc of coode is run atleast once before making a condition evaluation 
+#include<stdio.h>
+int main(){
+int n=0;
+int count=20;
+do
+{
+    n=n+1;
+    printf("\%d",n);
+
+
+}while(n<=count);
+}
