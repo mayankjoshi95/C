@@ -272,3 +272,12 @@ while(count<2)
 }
 printf("end of while");
 }
+
+
+
+while(1)
+{printf("print the while loop");
+}
+
+#for infinite times as 1 will always be true 
+
