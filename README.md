@@ -320,3 +320,17 @@ do
 
 }while(n<=count);
 }
+
+
+#for loop
+for(initialization;condition;increment/decrement)
+{
+}
+
+#include<stdio.h>
+int main(){
+for (int i=0;i<2;i++)
+{
+    printf("%d",i);
+}
+}
