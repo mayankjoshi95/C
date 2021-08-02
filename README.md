@@ -646,3 +646,14 @@ int main(){
 }
 
 
+
+#this is called dynamic allocation of an array
+
+
+#include<stdio.h>
+int main(){
+    float amount[]={1.1,1.2,3.4,4.5,3.6};
+
+    printf("%f",amount[2]);
+}
+
