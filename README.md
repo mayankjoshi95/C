@@ -898,3 +898,17 @@ int main(){char a[20]="programming"
 char *a="programming";
             printf(a);}
 
+
+
+#include <stdio.h>
+int main(){char a[20]="prrogramming";
+            printf("%s",a);}
+
+#include <stdio.h>
+int main(){char *a="prrogramming";
+            printf("%s",&a[0]);}
+
+
+#include <stdio.h>
+int main(){char *a="prrogramming";
+            puts(a);}
