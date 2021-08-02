@@ -628,3 +628,7 @@ int main(){
     float amount[5]={1.1,2.3,2.3,4.3,5.4};
     printf("%f",amount[2]);
 }
+
+
+
+
