@@ -629,6 +629,20 @@ int main(){
     printf("%f",amount[2]);
 }
 
+#another way of defining array
 
+
+#include<stdio.h>
+int main(){
+    float amount[5];
+    amount[0]=1.2;
+    amount[1]=1.3;
+    amount[2]=1.4;
+    amount[3]=1.6;
+    amount[4]=1.8;
+    amount[5]=2.9;
+
+    printf("%f",amount[2]);
+}
 
 
