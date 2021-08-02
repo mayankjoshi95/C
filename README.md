@@ -816,3 +816,26 @@ printf("\n%x",pointer);
 printf("%d",*pointer);//*pointer is read as content at pointer i.e content at address pointer is pointing to
 printf("%d",*(&count);}//  content at address of count
 
+
+#change the value using pointer .
+
+
+
+#include <stdio.h>
+int main(){int count;
+count=25;
+int sum=30;
+int *pointer;//pointer will point to an address
+int *sumpointer;
+sumpointer=&sum;
+printf("%x",&count);
+pointer=&count;
+printf("\n%x",pointer);
+printf("%d",*pointer);//*pointer is read as content at pointer}
+printf("%x",sumpointer);
+sumpointer=pointer;
+printf("%d",*sumpointer);
+}
+
+
+#addition of two poiter is not allowed in C
