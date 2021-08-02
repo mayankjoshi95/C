@@ -657,3 +657,32 @@ int main(){
     printf("%f",amount[2]);
 }
 
+#accept a multiple values  as an input  from the user and store it in an array
+
+#include<stdio.h>
+int main(){
+    float amount[10];
+    for (int i=0;i<10;i++)
+        scanf("%f",&amount[i]);
+    for (int i=0;i<10;i++)
+        printf("%f",amount[i]);
+}
+
+
+
+#to find the average
+
+
+
+
+#include<stdio.h>
+float sum=0;
+int main(){
+    float amount[5];
+    for (int i=0;i<5;i++)
+    {scanf("%f",&amount[i]);}
+    for (int i=0;i<5;i++)
+       {sum+=amount[i];
+         printf("%f",sum);}
+    printf("\n the average is %f",sum/5.0);
+}
