@@ -472,3 +472,29 @@ addition();
 
 
 
+
+
+#factorial
+#include<stdio.h>
+int n=1;
+int nu;
+void factorial(nu)
+{
+    for(int i=1 ;i<=nu;i++)
+    {
+         n=n*i;
+    }
+    printf("%d",n)  ;
+
+}
+
+
+int main(){
+    printf("write a number to get the factorial of");
+    scanf("%d",&nu);
+factorial(nu);
+}
+
+
+
+
