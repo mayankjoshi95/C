@@ -498,3 +498,37 @@ factorial(nu);
 
 
 
+
+
+#function which return a value
+
+datatype fname(datatype1,datatype2,datatype3,datatype4)
+{return  value;
+}
+int main()
+{dataype var=fname(datatype1,datatype2,datatype3,datatype4)
+}
+
+
+
+#to find the average
+#include<stdio.h>
+
+float avg (float nu,float n)
+
+{
+float value=(nu+n)/2.0;
+return value;
+}
+
+
+int main(){
+
+float c=avg(5,6);
+printf("the average value is");
+
+printf("%f",c);
+return 0;
+}
+
+
