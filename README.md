@@ -582,3 +582,28 @@ return value;
 #here value has the local scope thus it can't be run 
 
 #scope of variable value is local to the main fnction and it is not aaccesible to the main function.
+
+
+
+#include<stdio.h>
+
+
+float avg (float nu,float n);
+int value=1000;
+int main(){
+
+float c=avg(5,6);
+printf("the average value is");
+
+printf("the value in global%d",value);
+return 0;
+}
+float avg (float nu,float n)
+
+{
+float value=(nu+n)/2.0;
+printf("the value in local%f",value);
+return value;
+}
+
+#here value is defined for both global and for local 
