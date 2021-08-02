@@ -532,7 +532,28 @@ return 0;
 }
 
 
-#FUNCTION PROTOTYPE
+#FUNCTION PROTOTYPE(simply a declaration of the function that specifies function name parameters and return type.)
 
 
+#include<stdio.h>
+
+
+float avg (float nu,float n)
+int main(){
+
+float c=avg(5,6);
+printf("the average value is");
+
+printf("%f",c);
+return 0;
+}
+float avg (float nu,float n)
+
+{
+float value=(nu+n)/2.0;
+return value;
+}
+
+
+##IT LEADS TO ERROR I CAN TELL COMPILER THAT I WILL BE DEFINING FUNCTION SOMEWHERE ELSE IN THE CODE.
 
