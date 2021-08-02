@@ -838,4 +838,21 @@ printf("%d",*sumpointer);
 }
 
 
-#addition of two poiter is not allowed in C
+#addition,subtraction of two pointer is not allowed in C
+#count==sum this can be done it gives the ouput 0 or 1
+
+
+##use of pointer
+#include<stdio.h>
+void display(int *ptr)
+{
+    printf("value entered by the user is %d",*ptr);
+}
+int main(){
+    int n=90;
+    int *num;
+    num=&n;
+    display(num);
+
+
+}
