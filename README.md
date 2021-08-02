@@ -794,3 +794,24 @@ int main()
 #POINTER IN C
 
 POINTER IS A VARIABLE THAT POINTS TO AN ADDRESS OF A VARIABLE
+#&IS USED TO GET AN ADDRESS
+#&count wil return address of variable count 
+#include <stdio.h>
+int main(){int count;
+count=25;
+printf("%x",&count);}
+#it will return address of the count and variable count is stored at that address inside the memory
+
+#DECLARE A POINTER VARIABLE
+
+datatype *pointer_name(if my pointer variable is pointing to an int data type datattype is int).
+#include <stdio.h>
+int main(){int count;
+count=25;
+int *pointer;//pointer will point to an address
+
+printf("%x",&count);
+pointer=&count;
+printf("\n%x",pointer);
+printf("%d",*pointer);}//*pointer is read as content at pointer}
+
