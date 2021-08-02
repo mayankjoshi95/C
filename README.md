@@ -743,3 +743,47 @@ int main()
     return 0;
 }
 
+
+
+##2 2D 3*3 matrix sum
+
+#include<stdio.h>
+int main()
+{
+    int count[3][3];
+     for (int i=0;i<3;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+             scanf("%d",&count[i][j]);
+         }
+         printf("\n");
+     }
+     int counts[3][3];
+     for (int i=0;i<3;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+             scanf("%d",&counts[i][j]);
+         }
+         printf("\n");
+     }
+     int sum[3][3];
+     for (int i=0;i<3;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+          sum[i][j]=count[i][j]+counts[i][j];
+     }
+     printf("\n");
+     }
+     for (int i=0;i<3;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+             printf("%d",sum[i][j]);
+         }
+         printf("\n");
+     }
+    return 0;
+}
