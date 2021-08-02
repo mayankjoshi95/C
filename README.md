@@ -532,3 +532,7 @@ return 0;
 }
 
 
+#FUNCTION PROTOTYPE
+
+
+
