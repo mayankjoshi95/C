@@ -607,3 +607,17 @@ return value;
 }
 
 #here value is defined for both global and for local 
+
+
+##AN ARRAY IS A COLLECTIVE NAME GIVEN TO A GROUP OF VARIABLES OR CONSTANT VALUES OF SAME TYPES.
+
+#HERE INDEX START WITH THE ZERO
+
+
+
+#SYNTAX TO DECLARE A 1-D ARRAY
+
+
+datatype  arraryname[number of elements];
+
+float avg[5]={1.2,1.2,1.4,1.5,1.7};
