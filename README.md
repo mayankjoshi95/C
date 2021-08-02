@@ -621,3 +621,10 @@ return value;
 datatype  arraryname[number of elements];
 
 float avg[5]={1.2,1.2,1.4,1.5,1.7};
+
+
+#include<stdio.h>
+int main(){
+    float amount[5]={1.1,2.3,2.3,4.3,5.4};
+    printf("%f",amount[2]);
+}
