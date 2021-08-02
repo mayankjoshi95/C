@@ -787,3 +787,10 @@ int main()
      }
     return 0;
 }
+
+
+
+
+#POINTER IN C
+
+POINTER IS A VARIABLE THAT POINTS TO AN ADDRESS OF A VARIABLE
