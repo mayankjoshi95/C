@@ -813,5 +813,5 @@ int *pointer;//pointer will point to an address
 printf("%x",&count);
 pointer=&count;
 printf("\n%x",pointer);
-printf("%d",*pointer);}//*pointer is read as content at pointer}
+printf("%d",*pointer);}//*pointer is read as content at pointer i.e content at address pointer is pointing to
 
