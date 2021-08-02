@@ -856,3 +856,27 @@ int main(){
 
 
 }
+
+
+
+
+##SUM USING POINTER
+#include<stdio.h>
+void display(int *ptr,int*pt)
+{
+    printf("sum by the user is %d",*ptr+*pt);
+}
+int main(){
+    int n;
+    int m;
+    scanf("%d",&n);
+    scanf("%d",&m);
+    int *num;
+    int *nu;
+    num=&n;
+    nu=&m;
+
+    display(num,nu);
+
+
+}
