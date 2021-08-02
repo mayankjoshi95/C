@@ -686,3 +686,60 @@ int main(){
          printf("%f",sum);}
     printf("\n the average is %f",sum/5.0);
 }
+
+
+##2D array in C
+
+
+datatype arrayname[row][column];
+
+
+#include<stdio.h>
+int main()
+{
+    int count[2][3]={10,20,30,40,50,60};(10,20,30 are stored in one row and 40,50,60 in other row)
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int count[2][3]={10,20,30,40,50,60};
+     for (int i=0;i<2;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+             printf("%d",count[i][j]);
+         }
+         printf("\n");
+     }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int count[2][3];
+     for (int i=0;i<2;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+             scanf("%d",&count[i][j]);
+         }
+         printf("\n");
+     }
+     for (int i=0;i<2;i++)
+     {
+         for (int j=0;j<3;j++)
+         {
+
+
+     printf("%d",count[i][j]);
+     }
+     printf("\n");
+     }
+    return 0;
+}
+
