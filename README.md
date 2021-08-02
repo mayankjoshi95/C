@@ -557,3 +557,28 @@ return value;
 
 ##IT LEADS TO ERROR I CAN TELL COMPILER THAT I WILL BE DEFINING FUNCTION SOMEWHERE ELSE IN THE CODE.
 
+
+#scope of variable  in c
+
+
+#include<stdio.h>
+
+
+float avg (float nu,float n);
+int main(){
+
+float c=avg(5,6);
+printf("the average value is");
+
+printf("%f",value);
+return 0;
+}
+float avg (float nu,float n)
+
+{
+float value=(nu+n)/2.0;
+return value;
+}
+#here value has the local scope thus it can't be run 
+
+#scope of variable value is local to the main fnction and it is not aaccesible to the main function.
