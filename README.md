@@ -880,3 +880,21 @@ int main(){
 
 
 }
+
+
+
+
+
+##STRING 
+
+
+#A STRING IS A SDDRIES OF CHARACTER  IN AGROUP THAT OCCUPY CONTAGIOUS MEMORY.
+#A STRING IN CIS AN ARRAY OF CHARACTERS
+#A GROUP OF CHARACTERS INCLUDING ALPHABETS,DIGITS,AND SPECIAL SYMBOL IS CALLED STRING.
+
+
+#include <stdio.h>
+int main(){char a[20]="programming"
+char *a="programming";
+            printf(a);}
+
