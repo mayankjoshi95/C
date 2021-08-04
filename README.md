@@ -1083,9 +1083,76 @@ for (int i =0;i<2;i++)
     printf("\n");
 }
 
+}
 
 
+
+
+
+##FILE IN C 
+
+
+#include <stdio.h>
+int main(){
+//C:\Users\home\Documents\c\c program\fj
+FILE *fp;//(fp is the pointer of type file this pointer is used to open read and close opeartion on the file)
+fp=fopen("C:/Users/home/Documents/c/c program/fj/READ.txt","r");// (fp is now pointing to read.txt)   //this take two parameter 1st is the location 2nd is the mode of operation
+char ch=fgetc(fp);
+printf("%c",ch);
+ ch=fgetc(fp);
+printf("%c",ch);
+
+return 0;
 
 }
+
+##using while loop
+#include <stdio.h>
+int main(){
+//C:\Users\home\Documents\c\c program\fj
+FILE *fp;//(fp is the pointer of type file this pointer is used to open read and close opeartion on the file)
+fp=fopen("C:/Users/home/Documents/c/c program/fj/READ.txt","r");// (fp is now pointing to read.txt)   //this take two parameter 1st is the location 2nd is the mode of operation
+while (1)
+{
+
+
+char ch=fgetc(fp);
+
+if (ch==EOF)
+{
+    break;
+}
+printf("%c",ch);
+}
+
+return 0;
+
+}
+
+
+
+##WRITE TEXT INTO A FILE AND SAVE IT
+
+
+#include <stdio.h>
+int main(){
+//C:\Users\home\Documents\c\c program\fj
+FILE *fp;//(fp is the pointer of type file this pointer is used to open read and close opeartion on the file)
+fp=fopen("C:/Users/home/Documents/c/c program/fj/WRITE.txt","w");// (fp is now pointing to read.txt)   //this take two parameter 1st is the location 2nd is the mode of operation
+fprintf(fp,"%s","this is my first file");//file pointer ,format specifier ,string that needs to be entered
+fclose(fp);
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
 
            
