@@ -1044,4 +1044,48 @@ printf("%c",cat.gender);
 }
 
 
+##ARRAY OF STRUCTURE VARIABLE
+
+#include <stdio.h>
+int main(){
+int n;
+scanf("%d",&n);
+struct animal
+{
+    int age;
+    char gender;
+    char *name;
+    char *birthplace;
+    char *type;
+};
+struct animal a[3];
+a[0].age=3;
+a[0].name="Ace";
+a[0].gender="M";
+a[0].birthplace="fjlkd";
+a[0].type="dog";
+
+a[1].age=2;
+a[1].name="ce";
+a[1].gender='F';
+a[1].birthplace="lkd";
+a[1].type="cat";
+
+a[2].age=5;
+a[2].name="e";
+a[2].gender='F';
+a[2].birthplace="lkd";
+a[2].type="tiger";
+for (int i =0;i<2;i++)
+{
+    printf("\nAnimal is %s",a[i].type);
+    printf("\nGENDER Is %c",a[i].gender);
+    printf("\n");
+}
+
+
+
+
+}
+
            
