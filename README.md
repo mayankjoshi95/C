@@ -995,4 +995,31 @@ STRUCTURE IS A SPECIAL TYPE OF C DATATYPE IT ALLOWS MULTIPLE STRUCTURES TO BE GR
 ##AGE ,GENDER,NAME,BIRTHPLACE.
 ##"DOG " AND "CAT" CAN BE CONSIDERED  AS TYPE OF ANIMAL  HAVING PROPERTIES AGE,GENDER ,NAME,BIRTHPLACE.
 
+#include <stdio.h>
+int main(){
+int n;
+scanf("%d",&n);
+struct animal
+{
+    int age;
+    char gender;
+    char *name;
+    char *birthplace;
+};//dog,cat;
+struct animal dog,cat;//dog and cat are structure variable
+dog.age=1;
+dog.gender='F';
+dog.name="kitty";
+dog.birthplace="colarado";
+
+cat.age=1;
+cat.gender='M';
+cat.name="kiy";
+cat.birthplace="colado";
+printf("%s",cat.name);
+printf("%c",cat.gender);
+
+}
+
+
            
