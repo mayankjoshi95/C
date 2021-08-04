@@ -1022,4 +1022,26 @@ printf("%c",cat.gender);
 }
 
 
+#EASIER METHOD
+#include <stdio.h>
+int main(){
+int n;
+scanf("%d",&n);
+struct animal
+{
+    int age;
+    char gender;
+    char *name;
+    char *birthplace;
+};
+
+struct animal dog={3,'M',"kiyy","kiok"} ;
+struct animal cat={3,'M',"ki","ok"} ;
+printf("%s",cat.name);
+printf("%c",cat.gender);
+
+
+}
+
+
            
