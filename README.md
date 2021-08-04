@@ -1139,11 +1139,37 @@ int main(){
 //C:\Users\home\Documents\c\c program\fj
 FILE *fp;//(fp is the pointer of type file this pointer is used to open read and close opeartion on the file)
 fp=fopen("C:/Users/home/Documents/c/c program/fj/WRITE.txt","w");// (fp is now pointing to read.txt)   //this take two parameter 1st is the location 2nd is the mode of operation
-fprintf(fp,"%s","this is my first file");//file pointer ,format specifier ,string that needs to be entered
+fprintf(fp,"%s","this is my first file");//file pointer ,format specifier ,string that needs to be entereD
 fclose(fp);
 return 0;
 
 }
+
+#BUT THIS WILL OVERWRITE THE EXISTING CONTENT THUS WE NEED APPEND
+
+
+#APPEND
+
+
+#include <stdio.h>
+int main(){
+    char str[1000];
+//C:\Users\home\Documents\c\c program\fj
+FILE *fp;//(fp is the pointer of type file this pointer is used to open read and close opeartion on the file)
+fp=fopen("C:/Users/home/Documents/c/c program/fj/WRITE.txt","a");// (fp is now pointing to write.txt)   //this take two parameter 1st is the location 2nd is the mode of operation
+printf("enter the text");
+fflush(stdin);//in order to clear the input buffer
+fgets(str,1000,stdin);//accepting string from user and storing it in str// IT ALSO GIVES US NEW LINE
+fprintf(fp,"%s",str);//file pointer ,format specifier ,string that needs to be entered//apppend mode is used to add text to the existing one
+
+fclose(fp);
+return 0;
+
+}
+
+
+
+
 
 
 
