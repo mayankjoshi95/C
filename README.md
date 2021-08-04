@@ -912,3 +912,87 @@ int main(){char *a="prrogramming";
 #include <stdio.h>
 int main(){char *a="prrogramming";
             puts(a);}
+            
+            ######scanf will never worl if the input entered by the user has spaccee in it.
+            ######thus fgets is used .fgets(comments,5,stdin)#for example number of character is 4 then buffer size is 5
+            #buffer size greater than number of characters that needs to be accepted.
+            
+            
+ #include <stdio.h>
+int main(){
+
+    char comment[20] ;
+    printf("enter a text  ");
+    scanf("%s",&comment);
+    printf("\n text entered by the user is %s",comment);
+    return 0;
+
+}
+##fgets
+#include <stdio.h>
+int main(){
+
+    char comment[20] ;
+    printf("enter a text  ");
+    fgets(comment,5,stdin);
+    printf("\n text entered by the user is %s",comment);
+    return 0;
+
+}
+
+#TO FIND THE LENGTH OF THE STRING
+
+#include <stdio.h>
+int main(){
+     int n=999;
+     int length=0;
+    char comment[n];
+    printf("enter a text  ");
+    fgets(comment,n+1,stdin);
+    for(int i=0;comment[i]!='\n';i++)
+    {
+        length=length+1;
+    }
+    printf("\n text entered by the user is %d",length);
+    return 0;
+
+}
+
+
+#include <stdio.h>
+int main(int argc,const char * argv[]){
+    char comment1[]="this is my first comment";
+    printf("length of the string  %d",strlen(comment1));//copy the length
+    char destination[100];
+    strcpy(destination,comment1);//copy the string
+    printf("destination is %s",destination);
+    char destination1[100];
+    strncpy(destination1,comment1,3);//first intial n character
+    printf("%s",destination1);
+    strcat(destination1,comment1);//concatinate the string
+    printf("%s",destination1);
+    strncat(destination1,comment1,3);//concatenate leftmost comment1 with destination1
+    printf("%s",destination1);
+    strcmp(destination1,comment1);//if 1st=2nd return 0,if 1st>2nd return 1,1st<2nd return -1;
+
+    int length=strlen(comment1);//for reversing the string
+    for (int i=length-1;i>=0;i--)
+    {
+        printf("%c",comment1[i]);
+    }
+    return 0;
+
+}
+
+
+
+
+#STRUCTURES IN C
+
+STRUCTURE IS A SPECIAL TYPE OF C DATATYPE IT ALLOWS MULTIPLE STRUCTURES TO BE GROUPED TOGETHER
+##BASICALLY STRUCTURE " ANIMAL" CAN BE CONSIDERED  AS A COLLECTION OF PROPERTIES .
+##"ANIMAL HAS THE FOLLOWING PROPERTIES:
+##AGE ,GENDER,NAME,BIRTHPLACE.
+##"DOG " AND "CAT" CAN BE CONSIDERED  AS TYPE OF ANIMAL  HAVING PROPERTIES AGE,GENDER ,NAME,BIRTHPLACE.
+
+           
