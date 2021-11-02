@@ -1170,7 +1170,24 @@ return 0;
 
 
 
+##IDE :- is goood for writing the code instead of notepad ,compiler :- is to convert the code into a machine code .
+#include<stdio.h>## it is a preprocessor coommand ##it tells the compiler that we need the file stdio.h in this program .
+int main(int argc,char const *argv[])##int main is kind of the funciton nd from there our program start 
+{printf("hello worrld\n");##it is the fuction which is used from stdio.h header file using it we print in the console the desired output 
+return 0;##if everything goes well then it will give 0 to our operating system 
+}
 
+
+##basic structure of the c program 
+#includestdio.h>
+int main(int argc,char const *argv[])
+{int a,b;
+printf("enter a number a");
+scanf("%d",&a)
+printF("enter the number b");
+scanf("%d",&b)
+return 0;
+}
 
 
 
