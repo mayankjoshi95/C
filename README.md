@@ -1180,16 +1180,21 @@ return 0;##if everything goes well then it will give 0 to our operating system
 
 ##basic structure of the c program 
 #includestdio.h>
-int main(int argc,char const *argv[])
+int main()
 {int a,b;
 printf("enter a number a");
-scanf("%d",&a)
+scanf("%d",&a)#to take the value from the user &a is the address of the operator i.e at the adress the value gets stored of a
 printF("enter the number b");
-scanf("%d",&b)
-return 0;
+scanf("%d",&b);
+printf("the sum is %d\n",a+b);
+//sum is comments
+return 0;#it is the indicatio that our program iss sucessfully run 
 }
 
-
+1.preprocessing:-here comments are removed and the stdio.h is taken and placed here the pre processd output is stord in the .i file .
+2.compilation:-it convert this .i file to assembly level instruction saved in .s instruction
+3.assembly :- it convert assembly files to the binary files 
+4.linking:-take all .o file and make them .exe 
 
 
 
