@@ -1230,5 +1230,5 @@ It is a symbol we use to do any operation in the prrogramming language.
 1.artithmetic +,-,/,*,%
 2.relational ==,!=,>,<,>=,<= returns 1 or 0.
 3.logical &&,||,! if both the operrator are non zero then TRUE (&&)I.E RETURN EITHER 1 OR 0 
-4.bitwise
-5.assignment 
+4.bitwise :&,|,^,~(binary one's complement ),>>(binary right shift operator ),<<(bianry left shift operator )
+5.assignment :-=,+=,-=,*=,!=
