@@ -1232,3 +1232,8 @@ It is a symbol we use to do any operation in the prrogramming language.
 3.logical &&,||,! if both the operrator are non zero then TRUE (&&)I.E RETURN EITHER 1 OR 0 
 4.bitwise :&,|,^,~(binary one's complement ),>>(binary right shift operator ),<<(bianry left shift operator )
 5.assignment :-=,+=,-=,*=,!=
+
+
+FORMAT SPECIFIER :- IS A WAY TO TELLL TEH COMPILER WHAT TYPE OF DATA ISIN AVARIABLE DURINGTAKING INPUT DISPLAYINGG OUTPUT TO A USER 
+%a.bf like %0.7f 7 is the decimal.also say 8.4 means for 8 caracter space print the number with 4 decimal point accuracy
+
