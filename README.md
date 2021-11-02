@@ -1190,22 +1190,28 @@ printf("the sum is %d\n",a+b);
 //sum is comments
 return 0;#it is the indicatio that our program iss sucessfully run 
 }
-
+COMPILE STEPS
 1.preprocessing:-here comments are removed and the stdio.h is taken and placed here the pre processd output is stord in the .i file .
 2.compilation:-it convert this .i file to assembly level instruction saved in .s instruction
 3.assembly :- it convert assembly files to the binary files 
 4.linking:-take all .o file and make them .exe 
-
+5.loading:- inside the RAM( proogram gets storedi= in memeory is same as tat gets load in RAM) program gets loaded 
 #emicolon to terminate a statement 
 #c program is made of the tokens that is the basic buliding block .token can bekeyword , identifier ,constant ,string literal ,symbol .
 1.keyword are reserved word inside the c programming it has 32 general keyword like else ,int,long we can't  use these word to make the name of any identifier 
 2.identifier can be any variable name or function nnaem through which we can identify it doesn't allow puctuuation ,@.C is a case sensitive language.
 
 
-##variabel :- is like block where we store data inside the memory.
+##variable :- is like block where we store data inside the memory..it is the name given to the stoorage area where we store this type of data say int variable we store int variable inside the shar variable we store the character 
 ##datatype : it tell what type of data goes inside it .
 
 
-
+VARIABLE
+1.a name given to the memory location.
+2. declaration:- type variablennamme int a,b,c,d
+3. initialize a,b,c,d=10 data type tell how muuch space neds to be reserved for the variable 
+##it contains alphabet digits,underscoore .
+##only start with alphabets or undrscore not with digtis .
+#no white space or reserved is required 
 
            
