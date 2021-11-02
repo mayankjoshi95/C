@@ -1212,6 +1212,12 @@ VARIABLE
 3. initialize a,b,c,d=10 data type tell how muuch space neds to be reserved for the variable 
 ##it contains alphabet digits,underscoore .
 ##only start with alphabets or undrscore not with digtis .
-#no white space or reserved is required 
+#no white space or reserved is required int mayank joshi (this is the whitespace between mayank and joshi which can't be used ) 
 
            
+##DATA TYPE IN C
+
+#basic data type :- int,char,float ,double
+#derived data type :-array pointerstrucutre ,union
+enumeration dat type :- enum 
+void data type:- void
