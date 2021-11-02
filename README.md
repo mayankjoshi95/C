@@ -1196,9 +1196,14 @@ return 0;#it is the indicatio that our program iss sucessfully run
 3.assembly :- it convert assembly files to the binary files 
 4.linking:-take all .o file and make them .exe 
 
+#emicolon to terminate a statement 
+#c program is made of the tokens that is the basic buliding block .token can bekeyword , identifier ,constant ,string literal ,symbol .
+1.keyword are reserved word inside the c programming it has 32 general keyword like else ,int,long we can't  use these word to make the name of any identifier 
+2.identifier can be any variable name or function nnaem through which we can identify it doesn't allow puctuuation ,@.C is a case sensitive language.
 
 
-
+##variabel :- is like block where we store data inside the memory.
+##datatype : it tell what type of data goes inside it .
 
 
 
