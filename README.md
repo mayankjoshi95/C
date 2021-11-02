@@ -1221,3 +1221,14 @@ VARIABLE
 #derived data type :-array pointerstrucutre ,union
 enumeration dat type :- enum 
 void data type:- void
+
+
+##OPERATORS 
+
+It is a symbol we use to do any operation in the prrogramming language.
+
+1.artithmetic +,-,/,*,%
+2.relational ==,!=,>,<,>=,<= returns 1 or 0.
+3.logical &&,||,! if both the operrator are non zero then TRUE (&&)I.E RETURN EITHER 1 OR 0 
+4.bitwise
+5.assignment 
