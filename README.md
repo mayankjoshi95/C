@@ -1237,3 +1237,4 @@ It is a symbol we use to do any operation in the prrogramming language.
 FORMAT SPECIFIER :- IS A WAY TO TELLL TEH COMPILER WHAT TYPE OF DATA ISIN AVARIABLE DURINGTAKING INPUT DISPLAYINGG OUTPUT TO A USER 
 %a.bf like %0.7f 7 is the decimal.also say 8.4 means for 8 caracter space print the number with 4 decimal point accuracy
 
+%c(to print the character),%d(integer),%f(float),%l(long),%lf(long double)
